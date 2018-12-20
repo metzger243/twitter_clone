@@ -70,3 +70,9 @@ gem 'paperclip'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'font-awesome-rails'
+
+group :prodcution do
+  gem 'pg'
+  gem 'rails_12factor'
+  gem 'aws-sdk', '~> 2.3'
+end
